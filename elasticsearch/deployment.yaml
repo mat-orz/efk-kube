@@ -62,7 +62,7 @@ spec:
           - name: discovery.zen.minimum_master_nodes
             value: "2"
           - name: ES_JAVA_OPTS
-            value: "-Xms128m -Xmx128m"
+            value: "-Xms2g -Xmx2g"
       initContainers:
       - name: fix-permissions
         image: busybox
